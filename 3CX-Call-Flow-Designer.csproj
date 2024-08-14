@@ -1,0 +1,121 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>3CX Call Flow Designer</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="TCX.CFD.Classes.Components.Resources.ExternalCodeExecution.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.Menu.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.Transfer.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.WebInteraction.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.DisconnectCall.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.Loop.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.ExitCallflow.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.PromptPlayback.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.VariableAssignment.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.Record.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.UserInput.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.Branch.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.Conditional.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.DecrementVariable.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.IncrementVariable.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.UserComponent.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.DatabaseAccess.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.SocketClient.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.EMailSender.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.WebServicesInteraction.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.FileManagement.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.Cryptography.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.MakeCall.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.Logger.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.Read3CX.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.Write3CX.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.DateTimeConditional.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.Authentication.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.CreditCard.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.RecordEmail.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.AttachCallData.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.GetAttachedCallData.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.CRMLookup.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.Survey.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.JsonXmlParser.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.VoiceInput.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.ParallelExecution.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.TranscribeAudio.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.ExtensionValidator.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.SetCallerName.png" />
+    <None Remove="TCX.CFD.Classes.Components.Resources.CsvParser.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.ExternalCodeExecution.png" LogicalName="TCX.CFD.Classes.Components.Resources.ExternalCodeExecution.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.Menu.png" LogicalName="TCX.CFD.Classes.Components.Resources.Menu.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.Transfer.png" LogicalName="TCX.CFD.Classes.Components.Resources.Transfer.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.WebInteraction.png" LogicalName="TCX.CFD.Classes.Components.Resources.WebInteraction.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.DisconnectCall.png" LogicalName="TCX.CFD.Classes.Components.Resources.DisconnectCall.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.Loop.png" LogicalName="TCX.CFD.Classes.Components.Resources.Loop.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.ExitCallflow.png" LogicalName="TCX.CFD.Classes.Components.Resources.ExitCallflow.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.PromptPlayback.png" LogicalName="TCX.CFD.Classes.Components.Resources.PromptPlayback.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.VariableAssignment.png" LogicalName="TCX.CFD.Classes.Components.Resources.VariableAssignment.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.Record.png" LogicalName="TCX.CFD.Classes.Components.Resources.Record.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.UserInput.png" LogicalName="TCX.CFD.Classes.Components.Resources.UserInput.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.Branch.png" LogicalName="TCX.CFD.Classes.Components.Resources.Branch.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.Conditional.png" LogicalName="TCX.CFD.Classes.Components.Resources.Conditional.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.DecrementVariable.png" LogicalName="TCX.CFD.Classes.Components.Resources.DecrementVariable.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.IncrementVariable.png" LogicalName="TCX.CFD.Classes.Components.Resources.IncrementVariable.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.UserComponent.png" LogicalName="TCX.CFD.Classes.Components.Resources.UserComponent.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.DatabaseAccess.png" LogicalName="TCX.CFD.Classes.Components.Resources.DatabaseAccess.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.SocketClient.png" LogicalName="TCX.CFD.Classes.Components.Resources.SocketClient.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.EMailSender.png" LogicalName="TCX.CFD.Classes.Components.Resources.EMailSender.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.WebServicesInteraction.png" LogicalName="TCX.CFD.Classes.Components.Resources.WebServicesInteraction.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.FileManagement.png" LogicalName="TCX.CFD.Classes.Components.Resources.FileManagement.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.Cryptography.png" LogicalName="TCX.CFD.Classes.Components.Resources.Cryptography.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.MakeCall.png" LogicalName="TCX.CFD.Classes.Components.Resources.MakeCall.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.Logger.png" LogicalName="TCX.CFD.Classes.Components.Resources.Logger.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.Read3CX.png" LogicalName="TCX.CFD.Classes.Components.Resources.Read3CX.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.Write3CX.png" LogicalName="TCX.CFD.Classes.Components.Resources.Write3CX.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.DateTimeConditional.png" LogicalName="TCX.CFD.Classes.Components.Resources.DateTimeConditional.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.Authentication.png" LogicalName="TCX.CFD.Classes.Components.Resources.Authentication.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.CreditCard.png" LogicalName="TCX.CFD.Classes.Components.Resources.CreditCard.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.RecordEmail.png" LogicalName="TCX.CFD.Classes.Components.Resources.RecordEmail.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.AttachCallData.png" LogicalName="TCX.CFD.Classes.Components.Resources.AttachCallData.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.GetAttachedCallData.png" LogicalName="TCX.CFD.Classes.Components.Resources.GetAttachedCallData.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.CRMLookup.png" LogicalName="TCX.CFD.Classes.Components.Resources.CRMLookup.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.Survey.png" LogicalName="TCX.CFD.Classes.Components.Resources.Survey.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.JsonXmlParser.png" LogicalName="TCX.CFD.Classes.Components.Resources.JsonXmlParser.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.VoiceInput.png" LogicalName="TCX.CFD.Classes.Components.Resources.VoiceInput.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.ParallelExecution.png" LogicalName="TCX.CFD.Classes.Components.Resources.ParallelExecution.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.TranscribeAudio.png" LogicalName="TCX.CFD.Classes.Components.Resources.TranscribeAudio.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.ExtensionValidator.png" LogicalName="TCX.CFD.Classes.Components.Resources.ExtensionValidator.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.SetCallerName.png" LogicalName="TCX.CFD.Classes.Components.Resources.SetCallerName.png" />
+    <EmbeddedResource Include="TCX.CFD.Classes.Components.Resources.CsvParser.png" LogicalName="TCX.CFD.Classes.Components.Resources.CsvParser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Workflow.ComponentModel" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\Program Files\3CX Call Flow Designer\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="TreeGridView">
+      <HintPath>..\..\..\Program Files\3CX Call Flow Designer\TreeGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="DockingControls">
+      <HintPath>..\..\..\Program Files\3CX Call Flow Designer\DockingControls.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Workflow.Activities" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>
